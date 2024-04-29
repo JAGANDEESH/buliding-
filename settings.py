@@ -113,11 +113,11 @@ WSGI_APPLICATION = 'building_construction.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'building',
-        'HOST':'localhost',
+        'NAME': 'buildconst',
+        'HOST':'buildconst.cluster-c78m8cwuy9ux.us-east-1.rds.amazonaws.com',
         'PORT':'3306',
-        'USER':'root',
-        'PASSWORD':'',
+        'USER':'admin',
+        'PASSWORD':'jaganvasagar',
     }
 } 
 
